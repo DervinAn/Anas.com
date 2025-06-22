@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default {
+   base: "/Anas.com/",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"
