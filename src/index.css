@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    @apply border-neutral-200 dark:border-neutral-800;
+  }
+
+  body {
+    @apply font-sans antialiased bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100;
+  }
+}
+
+/* Custom styles */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -35px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  @apply bg-blue-500;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -40px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  @apply bg-blue-500;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Animation for project hover */
+.project-card .project-overlay {
+  @apply opacity-0 transition-opacity duration-300;
+}
+
+.project-card:hover .project-overlay {
+  @apply opacity-100;
+}
+
+.project-card img {
+  @apply transition-transform duration-500;
+}
+
+.project-card:hover img {
+  @apply scale-105;
+}
+
+/* Skills icon container */
+.skill-icon {
+  @apply w-12 h-12 flex items-center justify-center bg-neutral-100 dark:bg-neutral-800 rounded-lg mb-2;
+}
