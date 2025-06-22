@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/DervinAn/Anas.com",
   "name": "my-protfolio--",
   "private": true,
   "version": "0.0.0",
@@ -7,6 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
