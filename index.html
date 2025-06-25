@@ -18,11 +18,17 @@
   gtag('js', new Date());
   gtag('config', 'G-GN6Y5CRS3T');
 </script>
+<script>
+  const theme = localStorage.getItem("theme");
+  if (theme === "dark" || (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+  }
+</script>
 
     <title>Anas Namaoui - Portfolio</title>
   
-    <script type="module" crossorigin src="/Anas.com/assets/index-DqUwIAA7.js"></script>
-    <link rel="stylesheet" crossorigin href="/Anas.com/assets/index-9W2j3zJy.css">
+    <script type="module" crossorigin src="/Anas.com/assets/index-e6DXjzO5.js"></script>
+    <link rel="stylesheet" crossorigin href="/Anas.com/assets/index-x7_GycJ7.css">
   </head>
   <body>
     <div id="root"></div>
