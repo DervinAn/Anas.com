@@ -15,7 +15,7 @@ export function Hero() {
             </div>
             
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Junior <span className="text-blue-500">[Android]</span><br />
+              <span className="text-blue-500">[Android]</span><br />
               Mobile Developer<span className="text-blue-500 blink">_</span>
             </h1>
             

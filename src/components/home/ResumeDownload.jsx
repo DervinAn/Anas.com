@@ -7,7 +7,7 @@ export function ResumeDownload() {
           View or download a PDF version of my latest resume.
         </p>
         <a
-          href="/resume.pdf"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
           download
           className="inline-block bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition"
         >

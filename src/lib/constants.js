@@ -12,10 +12,26 @@ export const NAVBAR_LINKS = [
 ];
 
 export const STATS = [
-  { number: 2, label: "Years Experience", suffix: "+" },
-  { number: 3, label: "Apps Published", suffix: "+" },
-  { number: 5, label: "Satisfied Clients", suffix: "+" },
-  { number: 3, label: "Tech Talks Given", suffix: "+" }
+  {
+    "number": 3,
+    "label": "Years Experience",
+    "suffix": "+"
+  },
+  {
+    "number": 5,
+    "label": "Selected Projects",
+    "suffix": ""
+  },
+  {
+    "number": 2,
+    "label": "Client Projects Delivered",
+    "suffix": ""
+  },
+  {
+    "number": 10,
+    "label": "Client Discovery Meetings",
+    "suffix": "+"
+  }
 ];
 
 export const COMPANIES = [
@@ -99,132 +115,274 @@ export const SERVICES = [
 
 export const EMPLOYMENT_HISTORY = [
   {
-    title: "Developed multiple Android applications using Kotlin",
+    "title": "Freelance Android Developer | Remote | 2024 - Present. Delivering Kotlin applications across finance, real estate, and productivity using MVVM and Clean Architecture."
   },
   {
-    title: "Implemented MVVM and Clean Architecture in mobile applications",
+    "title": "Co-Founder, Qimora Agency | May 2025 - Present. Co-founded a software agency serving startups and small businesses."
   },
   {
-    title: "Created custom UI components and responsive layouts for various screen sizes",
+    "title": "Led 10-15 client discovery meetings and delivered two end-to-end client projects, translating feedback into business value."
   },
   {
-    title: "Integrated RESTful APIs and optimized app performance for better user experience",
+    "title": "Integrated REST APIs, Firebase, Room/SQLite, and cloud services; improved performance through modular design and helped evolve a business application into a multi-tenant SaaS platform."
   }
 ];
 
 export const EDUCATION = [
   {
-    title: "Bachelor's Degree in Computer Science",
-    institution: "University of Algiers,bechar",
-    period: "2023-2026"
+    "title": "Master’s in Strategic Management of Information Systems",
+    "institution": "École Nationale Supérieure de Management (ENSM), Koléa, Tipaza, Algeria",
+    "period": "Currently studying",
+    "description": "Graduate studies combining information systems, organizational strategy, and management."
+  },
+  {
+    "title": "Bachelor of Computer Science with Honours",
+    "institution": "University of Tahri Mohamed Béchar, Algeria",
+    "period": "Aug 2023 - Oct 2026",
+    "description": "Thesis: “AI-Powered Medical Diagnosis Application Using MVVM Architecture.”"
   }
 ];
 
 export const CERTIFICATIONS = [
   {
-    title: "Android Developer Certification",
-    institution: "Google Developers",
-    year: "2023"
-  },
-  {
-    title: "Kotlin Development Masterclass",
-    institution: "JetBrains Academy",
-    year: "2023"
-  },
-  {
-    title: "Mobile App Architecture & Design Patterns",
-    institution: "Mobile Dev Academy",
-    year: "2021"
-  },
-  {
-    title: "Steam Mentor in world learning",
-    institution: "World learning",
-    year: "2024"
-  },
+    "title": "Diploma in STEAM Mentorship",
+    "institution": "World Learning",
+    "year": "May 2024"
+  }
 ];
 
 export const PORTFOLIO_WORKS = [
   {
-    title: "Weather App",
-    description: "A sleek Android weather application that provides real-time forecasts, location-based weather updates, and customizable notifications.",
-    imageSrc: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-    tags: ["Kotlin", "MVVM", "Retrofit", "Room"],
-    githubLink: "#",
-    liveLink: "#"
+    "title": "RepaNova POS - Retail ERP SaaS",
+    "description": "A cross-platform retail system covering sales, inventory, customers, repairs, debt, and finance. Refined through a four-month client feedback cycle, tested across environments, and adapted for multi-tenant SaaS use.",
+    "tags": [
+      "Kotlin",
+      "Compose Multiplatform",
+      "Firebase",
+      "Cloudflare R2"
+    ],
+    "category": "Retail & SaaS"
   },
   {
-    title: "Crypto Tracker",
-    description: "Android application for tracking cryptocurrency prices, portfolio management, and market trends with real-time updates.",
-    imageSrc: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-    tags: ["Kotlin", "Clean Architecture", "API Integration", "Charts"],
-    githubLink: "#",
-    liveLink: "#"
+    "title": "Entrepreneur Networking Platform",
+    "description": "Connects entrepreneurs, investors, and suppliers with authentication, profiles, messaging, cloud synchronization, and file storage.",
+    "tags": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Firebase",
+      "Cloudflare R2"
+    ],
+    "category": "Networking"
   },
   {
-    title: "Real Estate App",
-    description: "A comprehensive real estate application with property listings, search filters, favorites, and integrated maps for property locations.",
-    imageSrc: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-    tags: ["Kotlin", "Firebase", "Google Maps", "Material Design"],
-    githubLink: "#",
-    liveLink: "#"
+    "title": "Law App - Legal Consultation Platform",
+    "description": "An MVP for consultation requests, document uploads, case tracking, and communication between clients and lawyers.",
+    "tags": [
+      "MVP",
+      "Legal Consultation",
+      "Case Tracking"
+    ],
+    "category": "Legal services",
+    "githubLink": "https://github.com/mxd0-0/LawApp"
   },
   {
-    title: "Task Manager",
-    description: "Productivity app with task scheduling, reminders, priority settings, and calendar integration for efficient time management.",
-    imageSrc: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-    tags: ["Kotlin", "Room Database", "WorkManager", "Notifications"],
-    githubLink: "#",
-    liveLink: "#"
+    "title": "Bio Fresh - Food Waste App",
+    "description": "An Android app for real-time food waste reduction, recognized by World Learning Algeria for social impact and technical innovation.",
+    "tags": [
+      "Jetpack Compose",
+      "Firebase",
+      "Social Impact"
+    ],
+    "category": "Sustainability",
+    "githubLink": "https://github.com/DervinAn/FWA"
   },
   {
-    title: "Note Manager",
-    description: "Feature-rich note-taking application with categories, tags, search functionality, and cloud backup capabilities.",
-    imageSrc: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-    tags: ["Java", "SQLite", "Material Components", "Cloud Sync"],
-    githubLink: "#",
-    liveLink: "#"
+    "title": "Smart TV App - University",
+    "description": "An Android TV application for university announcements, events, and dynamic content.",
+    "tags": [
+      "Android TV",
+      "Jetpack Compose",
+      "Firebase"
+    ],
+    "category": "Education",
+    "githubLink": "https://github.com/DervinAn/Faculty_of_exact_science"
   }
 ];
 
 export const SKILLS = [
   {
-    category: "Languages",
-    items: [
-      { name: "Kotlin", icon: "android", type: "brands" },
-      { name: "Java", icon: "java", type: "brands" },
-      { name: "XML", icon: "code", type: "solid" }
+    "category": "Languages",
+    "items": [
+      {
+        "name": "Kotlin",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Java",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "C",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Python",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "code",
+        "type": "solid"
+      }
     ]
   },
   {
-    category: "Architecture",
-    items: [
-      { name: "MVVM", icon: "layer-group", type: "solid" },
-      { name: "Clean Architecture", icon: "sitemap", type: "solid" },
-      { name: "Multimodule", icon: "puzzle-piece", type: "solid" }
+    "category": "Mobile",
+    "items": [
+      {
+        "name": "Android SDK",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Jetpack Compose",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Compose Multiplatform",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Retrofit",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Room",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "WorkManager",
+        "icon": "code",
+        "type": "solid"
+      }
     ]
   },
   {
-    category: "Database",
-    items: [
-      { name: "Room", icon: "database", type: "solid" },
-      { name: "SQLite", icon: "database", type: "solid" },
-      { name: "Firebase", icon: "fire", type: "solid" }
+    "category": "Architecture",
+    "items": [
+      {
+        "name": "MVVM",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Clean Architecture",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Modular Design",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Multi-module Applications",
+        "icon": "code",
+        "type": "solid"
+      }
     ]
   },
   {
-    category: "Mobile",
-    items: [
-      { name: "Android SDK", icon: "android", type: "brands" },
-      { name: "Jetpack", icon: "rocket", type: "solid" },
-      { name: "Compose", icon: "paint-brush", type: "solid" }
+    "category": "Cloud & Tools",
+    "items": [
+      {
+        "name": "Firebase",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Cloudflare R2",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Git / GitHub",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Gradle",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Hilt",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Koin",
+        "icon": "code",
+        "type": "solid"
+      }
     ]
   },
   {
-    category: "Other",
-    items: [
-      { name: "Git", icon: "github-alt", type: "brands" },
-      { name: "REST API", icon: "server", type: "solid" },
-      { name: "Material Design", icon: "palette", type: "solid" }
+    "category": "Testing & Performance",
+    "items": [
+      {
+        "name": "JUnit",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "MockK",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Compose UI Testing",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Memory & Battery Optimization",
+        "icon": "code",
+        "type": "solid"
+      }
+    ]
+  },
+  {
+    "category": "Web & UI",
+    "items": [
+      {
+        "name": "React.js",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Material Design",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Responsive Layouts",
+        "icon": "code",
+        "type": "solid"
+      },
+      {
+        "name": "Custom Components",
+        "icon": "code",
+        "type": "solid"
+      }
     ]
   }
 ];
@@ -238,7 +396,7 @@ export const CONTACT_INFO = [
   {
     icon: MapPin,
     title: "Location",
-    value: "Algiers, Algeria"
+    value: "Algeria · Available for remote opportunities"
   },
   {
     icon: "clock",
@@ -258,9 +416,5 @@ export const SOCIAL_LINKS = [
     icon: Linkedin,
     url: "https://www.linkedin.com/in/anas-namaoui"
   },
-  {
-    name: "Twitter",
-    icon: Twitter,
-    url: "#"
-  }
+
 ];

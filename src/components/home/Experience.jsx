@@ -7,7 +7,7 @@ export function Experience() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4">
-            2+ years of passion for programming techniques
+            3+ years building mobile applications
           </h2>
           {/* <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">
@@ -34,7 +34,7 @@ export function Experience() {
           
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
             <div>
-              <h3 className="text-lg font-semibold text-primary mb-2">Junoir Software Engineer</h3>
+              <h3 className="text-lg font-semibold text-primary mb-2">Android Developer & Qimora Co-Founder</h3>
               <ul className="space-y-3 text-gray-600 dark:text-gray-400">
                 {EMPLOYMENT_HISTORY.map((item, index) => (
                   <li key={index} className="flex items-start">

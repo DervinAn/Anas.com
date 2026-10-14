@@ -1,4 +1,3 @@
-import { Link } from "wouter";
 import { NAVBAR_LINKS } from "@/lib/constants";
 
 export function Footer() {
@@ -9,11 +8,11 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <Link href="/" className="flex items-center space-x-2">
+            <a href="#about" className="flex items-center space-x-2">
               <div className="text-xl font-bold text-gray-800 dark:text-white">
                 <span className="text-primary">{ }</span> Anas.Dev
               </div>
-            </Link>
+            </a>
           </div>
           
           <div className="flex space-x-6">

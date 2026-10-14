@@ -3,7 +3,6 @@ import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { Button } from "@/components/ui/button-simple";
 import { Menu, X, Code } from "lucide-react";
 import { NAVBAR_LINKS } from "@/lib/constants";
-import { Link } from "wouter";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,11 +15,11 @@ export function Navbar() {
     <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
       <div className="container mx-auto px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
+          <a href="#about" className="flex items-center space-x-2">
             <div className="text-xl font-bold text-gray-800 dark:text-white">
               <span className="text-primary">{ }</span> Anas.Dev
             </div>
-          </Link>
+          </a>
           
           <nav className="hidden md:flex items-center space-x-8">
             {NAVBAR_LINKS.map((link) => (
