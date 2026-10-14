@@ -6,7 +6,6 @@ export const NAVBAR_LINKS = [
   { href: "#experience", label: "Experience" },
   { href: "#works", label: "Works" },
   { href: "#education", label: "Education" },
-  { href: "#testimonials", label: "Testimonials" },
   { href: "#resume", label: "Resume" },
   { href: "#contact", label: "Contact" }
 ];

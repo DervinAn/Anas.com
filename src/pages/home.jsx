@@ -8,7 +8,6 @@ import { Skills } from "@/components/home/Skills";
 import { Stats } from "@/components/home/Stats";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
-import { Testimonials } from "@/components/home/Testimonials";
 import { ResumeDownload } from "@/components/home/ResumeDownload";
 
 export default function HomePage() {
@@ -23,7 +22,6 @@ export default function HomePage() {
         <Portfolio />
         <Skills />
          <EducationSection />
-        <Testimonials />
         <ResumeDownload />
         <Contact />
       </main>
